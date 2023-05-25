@@ -1,0 +1,14 @@
+h1 {
+    /*주석주석*/
+    color: #03d6c7;
+    text-align: center;
+}
+
+body {
+    color: red;
+    height: 50vh;
+    background-color: #000;
+    background-image: url('background.jpg');
+    background-position: center center;
+
+}
