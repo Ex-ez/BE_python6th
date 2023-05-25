@@ -1,14 +1,41 @@
-h1 {
-    /*주석주석*/
-    color: #03d6c7;
-    text-align: center;
-}
-
 body {
-    color: red;
-    height: 50vh;
-    background-color: #000;
-    background-image: url('background.jpg');
-    background-position: center center;
+    background: #f4f4f4;
+    font-family: arial, sans-serif;
+    line-height: 1.5em;
+}
+
+#container {
+    border: 1px #cccccc solid;
+    padding: 0 10px 0 10px;
+    /*상 우 하 좌
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 0;
+    padding-leftL: 10;
+    과같음
+
+    padding: 0 10px
+    2개일땐 위아래
+    */
+    width: 800px;
+    geight 3000px;
+    margin:30px auto;
+    overflow: auto;
 
 }
+
+.highlight{
+    color: red;
+    font-weight bold;
+    font-size: 30px;
+}
+
+.left-side {
+   float: left;
+    width: 50%;
+}
+
+/*.right-side{
+    float: right;
+    widow: 50%;
+}*/
