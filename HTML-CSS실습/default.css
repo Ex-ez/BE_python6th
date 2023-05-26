@@ -187,7 +187,6 @@ h1.text3 {
     background: red;
     animation-name: colorchange;
     animation-duration: 5s;
-    animation-iteration-count: infinty;
 }
 
 @keyframes colorchange{
