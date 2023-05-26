@@ -1,0 +1,280 @@
+.wrapper {
+    border: #000 1px solid;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.inside {
+    border: #ff0000 1px solid;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+
+
+a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+a:active {
+    color: green;
+    font-weight: bold;
+}
+
+.myForm input:focus {
+    background: pink;
+    width: 300px;
+}
+
+.myList li:first-child{
+    color: green;
+    font-weight bold;
+}
+
+.myList li:last-child{
+    color: red;
+    font-weight: bold;
+}
+
+.myList li:nth-child(3n + 3){
+    color: orange;
+    font-weight: bold;
+}
+
+.myList li:nth-child(even){
+    background: yellow;
+    font-weight: bold;
+}
+
+.myList li:nth-child(odd){
+    background: gray;
+    font-weight: bold;
+}
+
+#rounded1 {
+    background: lightblue;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    height: 140px;
+    border-radius: 50px;
+}
+
+#rounded2 {
+    background: orange;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    height: 140px;
+    border-radius: 30px;
+}
+
+#rounded3 {
+    background: pink;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    height: 140px;
+    border-radius: 70px;
+}
+
+img{
+    width:300px;
+    max-height: 300px;
+    border-radius: 50%;
+}
+
+#border-img {
+    border: 18px solid;
+    padding: 10px;
+    border-image: url('border.png') 30 round;
+}
+
+#my-bg {
+    background-image: url('border.png'), url('background.jpg');
+    background-position: left top, right bottom;
+    background-repeat: repeat, no-repeat;
+    padding: 20px;
+    background-size: 50px 50px, cover;
+}
+
+#grad1 {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to right, red, yellow);
+}
+
+#grad2 {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to bottom right, pink, purple);
+}
+
+#grad3{
+    width: 200px;
+    height: 50px;
+    background: radial-gradient(red, yellow, green);
+}
+
+#grad4 {
+    width: 200px;
+    height: 50px;
+    background: radial-gradient(circle, lightblue, darkblue);
+}
+
+h1.text1{
+    text-shadow: 2px 2px 5px red;
+}
+
+h1.text2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+h1.text3 {
+    text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff;
+}
+
+#box0 {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.card-header {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.card-container {
+    padding: 10px;
+}
+
+#box1 {
+    width: 100px;
+    height: 100px;
+    background: #000000;
+    transition: width 1s, height 1s;
+    transition-timing-function: linear;
+}
+
+#box1:hover {
+    width: 300px;
+    height: 300px;
+
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: red;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: infinty;
+}
+
+@keyframes colorchange{
+    0% {
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0;
+    }
+
+    50%{
+        background-color: green;
+        left: 200px;
+        top: 200px;
+    }
+
+    75%{
+        background-color: blue;
+        left: 0;
+        top: 200px;
+    }
+
+    100%{
+        background-color: red;
+        left: 0;
+        top: 0;
+    }
+}
+
+article {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid coral;
+}
+
+article h1{
+    column-span: all;
+}
+
+.textbox1 {
+    border: 2px solid;
+    padding: 20px;
+    width: 300px;
+    overflow: auto;
+    resize: both;
+}
+
+.textbox2 {
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    height: 250px;
+    background-color: #000000;
+}
+
+.flex-item {
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.first {
+    order: -1;
+}
+
+
+
+
+
+
+
+
+
+
