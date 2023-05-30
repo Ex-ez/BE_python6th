@@ -10,3 +10,29 @@ console.error('Welcome JS Program');
 alert('Welcome JS Program');
 var a = prompt('Welcome JS Program');
 console.log(a);
+
+console.log(typeof 123);
+console.log(typeof 123.5);
+console.log(typeof "123");
+console.log(typeof true);
+console.log(typeof false);
+
+var car;
+console.log(car);
+var car = "";
+console.log(typeof car);
+
+var person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue"};
+console.log(typeof person, person);
+person = null;
+console.log(typeof person, person);
+
+
+
+
+
+
+
+
+
+
