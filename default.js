@@ -75,33 +75,48 @@
 //var result = text5.slice(3, 4);
 //document.write(result + "<br/>");
 
-var num = "20"
-num = num.toString();
-console.log(typeof number);
-
-var number = 20;
-console.log(typeof number);
-
-number = number.toString();
-console.log(number, typeof number);
-
-var x = 2.56789
-console.log(x.toFixed(1), typeof x.toFixed(1));
-console.log(x.toFixed(2))
-
-console.log(x.toPrecision(1), typeof x.toPrecision(1));
-console.log(x.toPrecision(2));
-
-console.log(Number(true));
-console.log(Number(false));
-console.log(Number(" 10"));
-console.log(Number(" 10 "));
-console.log(Number("10.25"));
-
-
+//var num = "20"
+//num = num.toString();
+//console.log(typeof number);
+//
+//var number = 20;
+//console.log(typeof number);
+//
+//number = number.toString();
+//console.log(number, typeof number);
+//
+//var x = 2.56789
+//console.log(x.toFixed(1), typeof x.toFixed(1));
+//console.log(x.toFixed(2))
+//
+//console.log(x.toPrecision(1), typeof x.toPrecision(1));
+//console.log(x.toPrecision(2));
+//
+//console.log(Number(true));
+//console.log(Number(false));
+//console.log(Number(" 10"));
+//console.log(Number(" 10 "));
+//console.log(Number("10.25"));
 
 
+var num1 = parseInt(prompt("Enter first number : "));
+var num2 = parseInt(prompt("Enter second number : "));
+var lineBreak = "<br/>"
 
+var result = num1 + num2;
+document.write("The sum is : " + result + lineBreak);
+
+result = num1 - num2;
+document.write("The sub is : " + result + lineBreak);
+
+result = num1 * num2;
+document.write("The multiplication is : " + result + lineBreak);
+
+result = num1 / num2;
+document.write("The division is : " + result + lineBreak);
+
+result = num1 % num2;
+document.write("The remainder is : " + result + lineBreak);
 
 
 
