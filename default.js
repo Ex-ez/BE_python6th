@@ -269,17 +269,17 @@
 
 //함수
 
-// 메게변수가 없는 함수 생성하기
+// 매게변수가 없는 함수 생성하기
 //function message(){
 //    document.write("Hello, i am a function without parameter" + "<br/>");
 //}
 //
-////한 개의 메게변수를 가진 함수 생성하기
+////한 개의 매게변수를 가진 함수 생성하기
 //function welcomeMessage(name) {
 //    document.write("welcome " + name + "<br/>");
 //}
 //
-////여러 개의 메게변수를 가진 함수 생성하기
+////여러 개의 매게변수를 가진 함수 생성하기
 //function addition(num1, num2){
 //    var sum = num1 + num2;
 //    document.write("addition is " + sum + "<br/>");
@@ -297,19 +297,58 @@
 
 //IIFE 예제
 
-(function display(message) {
-   console.log(message);
-}) ("hi")
+//(function display(message) {
+//   console.log(message);
+//}) ("hi")
+//
+//var display2 = function displayMessage(msg) {
+//    console.log(msg);
+//}
+//
+//display2("I am mesage");
+//
+//(function addNumbers(a, b) {
+//    console.log(a + b);
+//}) (3, 4);
 
-var display2 = function displayMessage(msg) {
-    console.log(msg);
-}
+var names = new Array()
 
-display2("I am mesage");
+names[0] = "지훈";
+names[1] = "은영";
 
-(function addNumbers(a, b) {
-    console.log(a + b);
-}) (3, 4);
+console.log(names[1]);
+
+// 값을 가진 배열 생성하기
+var students = ["지훈", "은영", "수진", "준호"];
+console.log("students = " + students)
+console.log("2번 인덱스의 학생: " + students[2])
+
+//배열의 길이 찾기
+console.log("학생 배열의 길이: ", students.length);
+
+//배열의 요소 추가하기
+students.push("영구");
+console.log("push 후 학생 배열 = " + students);
+
+//배열의 요소
+students.pop();
+console.log("pop 후 학생 배열 = " + students);
+
+//배열 연결하기
+var numArray1 = [10, 20];
+var numArray2 = [30, 40, 50, 60];
+var numArray = numArray1.concat(numArray2);
+
+console.log("배열 잇기(concatenation): " + numArray);
+
+console.log(numArray1 + numArray2);
+
+
+
+
+
+
+
 
 
 
