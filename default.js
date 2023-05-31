@@ -156,38 +156,46 @@
 //console.log('num1 > num2 && num1 > num5: ', num1 > num2 && !(num1 > num5));
 //console.log('num1 > num2 || num1 > num5: ', num1 > num2 || num1 > num5);
 
-var num1 = parseInt(prompt('첫번째 숫자 입력 : '));
-var num2 = parseInt(prompt('두번째 숫자 입력 : '));
+//var num1 = parseInt(prompt('첫번째 숫자 입력 : '));
+//var num2 = parseInt(prompt('두번째 숫자 입력 : '));
+//
+//if(num1 > num2) {
+//    console.log("큰 수는 num1: " + num1);
+//}
+//
+//if(num1 < num2) {
+//    console.log('큰 수는 num2: ' + num2);
+//}
+//
+//if(num1 == num2) {
+//    console.log("같은 수");
+//}
+//
+//if(num1 > num2) {
+//    console.log("큰 수 num1: " + num1);
+//} else if (num1 < num2) {
+//    console.log("큰 수 num2: " + num2);
+//} else if (num1 == num2) {
+//    console.log("같은 수");
+//}
+//
+//if(num1 > num2) {
+//    console.log("큰 수 num1: " + num1);
+//} else if (num1 < num2) {
+//    console.log("큰 수 num2: " + num2);
+//} else  {
+//    console.log("같은 수");
+//}
 
-if(num1 > num2) {
-    console.log("큰 수는 num1 : " + num1);
+var letter = prompt("Enter a letter : ");
+
+letter = letter.toLowerCase();
+
+if(letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u'){
+    console.log('Vowel');
+} else {
+    console.log("Consonant");
 }
-
-if(num1 < num2) {
-    console.log('큰 수는 num2 : ' + num2);
-}
-
-if(num1 == num2) {
-    console.log("같은 수");
-}
-
-if(num1 > num2) {
-    console.log("큰 수 num1:" + num1);
-} else if (num1 < num2) {
-    console.log("큰 수 num2:" + num2);
-} else if (num1 == num2) {
-    console.log("같은 수");
-}
-
-if(num1 > num2) {
-    console.log("큰 수 num1:" + num1);
-} else if (num1 < num2) {
-    console.log("큰 수 num2:" + num2);
-} else  {
-    console.log("같은 수");
-}
-
-
 
 
 
