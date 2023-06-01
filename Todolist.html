@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Note</title>
+    <title>My First To Do List</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
@@ -16,32 +16,33 @@
         text-align: center;
         }
 
-        #note {
-        min-height: 200px;
+        #addList {
+        min-height: 20px;
+        width: 500px;
         border: 1px solid #000;
         padding: 10px;
+        align-items: center;
+        }
+
+        h1 {
+            text-align: center;
         }
     </style>
 </head>
 <body>
 <header>
-    <h1>My Note</h1>
+    <h1>To Do List</h1>
 </header>
 <main>
     <section class="container">
-        <div id="note"
-             contenteditable="true"
-             oninput="saveNote()"
-        ></div>
-        <button type="button"
-                class="btn btn-danger"
-                onclick="clearNote()"
-        >Clear
-        </button>
+        <input id="todo" type="text">
+        <button id="add" class="btn btn-primary" onclick="addToDo()" > 추가 </button>
+        <div class="todolist" id="list" >   </div>
+
     </section>
 </main>
 <footer>
-            copyright 2023 MyNote.
+            copyright 2023 My First To Do List.
 </footer>
 
 
@@ -50,22 +51,25 @@
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script>
-    function getNote(){
-        var note = localStorage.getItem('note');
-        console.log('getNote:', note);
-        document.getElementById('note').innerHTML = note;
-    }
-    function saveNote(){
-        var note = document.getElementById("note").innerHTML;
-        localStorage.setItem('note', note);
-    }
-    function clearNote(){
-        console.log('Clear Note')
-        localStorage.clear();
-        document.getElementById('note').innerHTML = '';
-    }
+    var input = document.getElementById('todo');
+    var list = document.getElementById('list');
 
-    getNote();
+    function addToDo(){
+        var item = document.createElement('li');
+        item.innerText = input.value;
+        list.appendChild(item);
+
+        item.classList.add('list-group-item');
+
+        const deleteButton = document.createElement('button')
+        deleteButton.textContent="제거"
+        deleteButton.classList.add('btn', 'btn-danger', 'btn-sm');
+        item.appendChild(deleteButton)
+
+        deleteButton.addEventListener('click', function(){
+            list.removeChild(item);
+        })
+    }
 </script>
 </body>
 </html>
