@@ -10,165 +10,34 @@
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
-<!--Dropdown-->
+<!--Pagination-->
 <div class="container mt-4">
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-        >
-            Dropdown button
-        </button>
-        <ul class="dropdown-menu">
-            <li>
-                <a href="#" class="dropdown-item">Action</a>
-            </li>
-            <li>
-                <a href="#" class="dropdown-item">Another action</a>
-            </li>
-            <li>
-                <a href="#" class="dropdown-item">Something else here</a>
-            </li>
+    <nav>
+        <ul class="pagination">
+            <li class="page-item"><a href="#" class="page-link">이전</a> </li>
+            <li class="page-item"><a href="#" class="page-link">1</a> </li>
+            <li class="page-item"><a href="#" class="page-link">2</a> </li>
+            <li class="page-item"><a href="#" class="page-link">3</a> </li>
+            <li class="page-item"><a href="#" class="page-link">다음</a> </li>
         </ul>
+    </nav>
+</div>
+
+<!--Breadcrumbs-->
+    <div class="container mt-4">
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active">Data</li>
+            </ol>
+        </nav>
     </div>
-</div>
-<!--Modal-->
-<div class="container mt-4">
-    <!--    button trigger modal-->
-    <button type="button"
-            class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-    >
-        Launch demo modal
-    </button>
-    <!--    Modal-->
-    <div class="modal fade"
-         id="exampleModal"
-         tabindex="-1"
-    >
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Modal title</h5>
-                    <button type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                    ></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button"
-                            class="btn btn-secondary"
-                    >
-                        Close
-                    </button>
-                    <button type="button"
-                            class="btn btn-primary"
-                    >
-                        Save changes
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Carousels-->
-<div class="container mt-4">
-    <div id="carouselExampleControls"
-         class="carousel slide"
-         data-bs-ride="carousel"
-    >
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="https://via.placeholder.com/900x300"
-                     class="d-block w-100"
-                     alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/900x300"
-                     class="d-block w-100"
-                     alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="https://via.placeholder.com/900x300"
-                     class="d-block w-100"
-                     alt="...">
-            </div>
-        </div>
-        <button class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev"
-        >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">이전</span>
-        </button>
-        <button class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleControls"
-                data-bs-slide="next"
-        >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">다음</span>
-        </button>
-    </div>
-</div>
-
-<!--Tooltip-->
-<div class="container mt-4">
-    <button type="button"
-            class="btn btn-secondary"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            title="Tooltip on top"
-    >
-        Tooltip on top
-    </button>
-</div>
-
-<!--Popovers-->
-<div class="container mt-4">
-    <button type="button"
-            class="btn btn-info"
-            data-bs-container="body"
-            data-bs-toggle="popover"
-            data-bs-placement="bottom"
-            data-bs-content="this is a popover example."
-    >
-        Popover on bottom
-    </button>
-</div>
-<script
-
-src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.mi
-n.js"
- crossorigin="anonymous"
- ></script>
- <script
-
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js
-"
- crossorigin="anonymous"
- ></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+ crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
 <script>
-    var tooltipTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="tooltip"]')
-    )
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl);
-    })
 
-    var popoverTriggerList = [].slice.call(
-        document.querySelectorAll('[data-bs-toggle="popover"]')
-    );
-    var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
-        return new bootstrap.Popover(popoverTriggerEl);
-    })
 </script>
 </body>
 </html>
