@@ -10,20 +10,31 @@
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
 <body>
-<h1>안녕하세요. 부트스트랩 5!</h1>
-<div class="container">
-    <div   class="row">
-        <div class="col-md-4 col-sm-6" style="background-color: lightblue">
-            첫번째 열
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a href="#" class="navbar-brand">Navbar</a>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Featurse</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">pricing</a>
+                </li>
+            </ul>
         </div>
-        <div class="col-md-4 col-sm-6" style="background-color: lightgreen">
-            두번째 열
-        </div>
-        <div class="col-md-4 col-sm-12" style="background-color: lightyellow">
-            세번째 열
-        </div>
-
     </div>
-</div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
