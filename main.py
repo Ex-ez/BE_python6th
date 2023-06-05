@@ -1,18 +1,15 @@
-data = [10, 20, -20, 21.3, 'LikeLion']
-print(data)
+# # name = input()
+# #
+# # print(name)
+# #
+# # name = input("Your Name: ")
+# mobile = input("Enter Your Mobile Number:")
+# mb = int (mobile)
+# print(mb, type(mb))
+#
+# price = int(input("Total Price:"))
+#
+# print(price)
 
-print("Like", "Share", "Subscribe", sep='')
-print("Like", "Share", "Subscribe", sep='***')
-
-print("Like", "Share", "Subscribe", sep='***', end='\t')
-print("Like", "Share", "Subscribe", sep='***', end='\t')
-
-m = 40
-print("value: ", m)
-name = "강영구"
-age = 27
-print("My name is", name, "and My age is", age, sep=' ')
-
-print("Welcome", end='\t')
-print("to", end='\t')
-print("LikeLion")
+print("He said, \"Hello World\"")
+print('It\'s a beautiful day')
