@@ -1,14 +1,28 @@
-# 논리 연산자
-a = 5
-b = 2
-c = 3
-d = 200
+# 할당 연산자
+a = 10
+b = 20
+m = 15
 
-print('AND 연산자')
-print('a > b and a < c: ', a > b and a < c)
+y = a + b
+print(y)
 
-print('OR 연산자')
-print('a > b or d a < c: ', a > b or a < c)
+m += 10
+print(m)
 
-print('NOT 연산자')
-print('no(a < b): ', not(a < b))
+m -= 10
+print(m)
+
+m *= 10
+print(m)
+
+m /= 10
+print(m)
+
+m %= 10
+print(m)
+
+m **= 2
+print(m)
+
+m //= 10
+print(m)
