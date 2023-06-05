@@ -1,9 +1,5 @@
 # 명시적 타입 변환
-q = 20
-u = '10'
-print(type(u))
-r = q + int(u)
-print(r, type(r))
+n5 = "멋쟁이 사자"
+vn5 = tuple(n5)
 
-r = str(q) + u
-print(r, type(r))
+print(vn5, type(vn5))
