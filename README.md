@@ -26,4 +26,5 @@
 - Todolilst 과제 코드리뷰 및 공부
 
 ## 6월 3일
-- python 실습 시작
+- python 기초 실습 시작
+- python 연산자
