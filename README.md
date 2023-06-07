@@ -49,4 +49,4 @@
 - 문자열 함수
 - 함수
 
-- PPT 기준 | if문, while 루프, range, for in, breaK & continue, pass, 배열
+- PPT 기준 | 05 if문 ~ 14함수
