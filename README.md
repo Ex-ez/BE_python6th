@@ -45,5 +45,6 @@
 - for in 실습, Break & Continue  간단하게 하고  넘어갔음
 -  Pass 문 
 - 배열
+- 문자열
 
 - PPT 기준 | if문, while 루프, range, for in, breaK & continue, pass, 배열
