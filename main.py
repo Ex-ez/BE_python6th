@@ -1,8 +1,10 @@
-def disp():
-    def show():
-        return "Show Function"
-    result = show() + "Disp Function"
-    return result
+def disp(sh):
+    print(type(sh))
+    print("Disp Function" + sh())
 
 
-print(disp())
+def show():
+    return " Show Function"
+
+
+disp(show)
