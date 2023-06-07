@@ -38,7 +38,7 @@
 - 출력 함수 실습
 - PPT 기준 | 변수, 연산자, 타입 변환, 입력과 출력, If문 초반 설명 
 
-## 6월 7일
+## 6월 7일 python
 - if문 실습 시작
 - while 루프 실습
 - range 함수
@@ -46,5 +46,7 @@
 -  Pass 문 
 - 배열
 - 문자열
+- 문자열 함수
+- 함수
 
 - PPT 기준 | if문, while 루프, range, for in, breaK & continue, pass, 배열
