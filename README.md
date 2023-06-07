@@ -42,5 +42,6 @@
 - if문 실습 시작
 - while 루프 실습
 - range 함수
+- for 루프
 
 - PPT 기준 | if문, while 루프
