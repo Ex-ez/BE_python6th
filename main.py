@@ -1,7 +1,6 @@
-# for in
-st ="멋쟁이 사자"
-for ch in st:
-    print(ch)
+# pass 문 실습
+a = 5
+if a < 6:
+    pass
 else:
-    print("Else")
-print("코드 종료")
+    print("6보다 큼")
