@@ -1,5 +1,8 @@
-s = "    Hello World "
+s = "Hello World    "
 
-print(s.lstrip())
-print(s.rstrip())
-print(s.strip())
+print(s.replace("world".title(), "there"))
+split_str = s.split(",")
+print(split_str)
+print("".join(split_str))
+
+print(s.startswith("Hello"))
