@@ -1,51 +1,39 @@
 from array import *
 
-stu_roll = array('i', [101, 102, 103, 104, 105])
+stu_roll = array('i', [101, 102, 103, 104, 105, 106, 107])
 
-print("배열 삽입 실습")
-stu_roll.insert(1, 106)
-stu_roll.insert(3, 107)
+print("배열 슬라이싱")
 n = len(stu_roll)
-i = 0
-while i < n:
-    print(stu_roll[i])
-    i += 1
+for i in range(n):
+    print(i, "=", stu_roll[i])
 
-print("배열 요소 삭제")
+print("1:5까지")
+a = stu_roll[1:5]
+for i in a:
+    print(i)
 
-stu_roll.remove(107)
-n = len(stu_roll)
-i = 0
-while i < n:
-    print(stu_roll[i])
-    i += 1
+print("0번째 부터 끝까지")
+b = stu_roll[0:]
+for i in b:
+    print(i)
 
-print("배열 pop() 함수 실습")
+print("처음부터 5번째까지")
+c = stu_roll[:5]
+for i in c:
+    print(i)
 
-element = stu_roll.pop(2)
-print('element:', element)
-n = len(stu_roll)
-i = 0
-while i < n:
-    print(stu_roll[i])
-    i += 1
+print("마지막 요소 4개 출력")
+d = stu_roll[-4:]
+for i in d:
+    print(i)
 
-print("array index 메소드")
-print(stu_roll.index(101))
+print("0부터 6번째까지 2개씩  건너뛰어 출력")
+e = stu_roll[0:7:2]
+for i in e:
+    print(i)
 
-print("extend() 메소드")
-arr = array('i', [201, 208, 209])
-stu_roll.extend(arr)
-n = len(stu_roll)
-i = 0
-while i < n:
-    print(stu_roll[i])
-    i += 1
+print("마지막 5개 요소 중 [-5(-3)] = (-2) 오른쪽으로 부터 2개의 요소를 출력")
+f = stu_roll[-5:-3]
+for i in f:
+    print(i)
 
-print("reverse() 메소드")
-stu_roll.reverse()
-n = len(stu_roll)
-i = 0
-while i < n:
-        print(stu_roll[i])
-        i += 1
