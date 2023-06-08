@@ -1,33 +1,21 @@
-def show():
-    x = 10
-    print(x)
-
-
-show()
-
-
-def add(y):
-    x = 10
-    print(x)
-    print(x + y)
-
-
-add(20)
-
 a = 50
 
 
 def show():
-    x = 10
-    print(x)  # local
-    print(a)  # global
+    a = 10
+    print("show-A:", a)
+
 
 show()
+print("A:", a)
 
-print("Global Variable a:", a)
-i = 0
-def myfun():
-    a = i + 1
-    print("My Function", a)
-myfun()
-print("Global Variable a:", a)
+
+def show2():
+    global a
+    print("show2-A:", a)
+    a = 20
+    print("show2-A:", a)
+
+
+show2()
+print("A:", a)
