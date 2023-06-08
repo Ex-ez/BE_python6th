@@ -1,24 +1,25 @@
-def pw(x, y):
-    z = x ** y
-    print(z)
+# Example 1
+def add(x, y):
+    z = x + y
+    print("Addition:", z)
 
 
-pw(2, 5)
-pw(5, 2)
-# pw(5, 2, 3)
-
-def show(name, age):
-    print(f"Name: {name} Age: {age}")
+add(5, 2)
 
 
-show(name="멋쟁이사자", age=42)
-show(age=42, name="멋쟁이사자")
+# Example 2
+def add(*num):
+    z = num[0] + num[1] + num[2]
+    print("Addition:", z)
 
 
+add(5, 2, 4)
 
 
+# Example 3
+def add(x, *num):
+    z = x + num[0] + num[1]
+    print("Addition:", z)
 
 
-
-
-
+add(5, 2, 4)
