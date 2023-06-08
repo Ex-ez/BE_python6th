@@ -1,30 +1,9 @@
-fruits = ["apple", "banana", "cherry", "orange"]
-vegetables = ["carrot", "cucumber"]
+# 사용자 입력으로 리스트 만들기
+user_input_list = []
+num_elements = int(input("Enter Number of Element: "))
+for i in range(num_elements):
+    user_input_list.append(input("Enter Element:"))
 
-grocery = fruits + vegetables
-print(grocery)
-
-numbers = [10, 5, 8, 1, 7]
-numbers.sort()
-print(numbers)
-
-slice_numbers = numbers[1:4]
-print(slice_numbers)
-
-alias_number = numbers
-print(alias_number)
-
-alias_number.pop()
-
-print(numbers)
-
-numbers_copy = numbers.copy()
-numbers_copy.pop()
-print('numbers_copy', numbers_copy)
-print('numbers',numbers)
-
-
-numbers_clone = numbers[:]
-print(numbers_clone)
-
-
+print("User Input List:")
+for element in user_input_list:
+    print(element)
