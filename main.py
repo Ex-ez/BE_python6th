@@ -1,7 +1,8 @@
-file_object = open('example.txt', 'r')
 
-content = file_object.read()
+file_object = open('new_example.txt', 'w')
 
-print(content)
+content = "This is a new file. \nPython is fun!"
+
+file_object.write(content)
 
 file_object.close()
