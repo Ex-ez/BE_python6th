@@ -1,18 +1,25 @@
-from array import *
+class Mobile:
+    fp = 'yes'
 
 
-def show(ar):
-    print("Passed Array:", ar)
-    print(type(ar))
-    for i in ar:
-        print(i)
-    return ar
+realme = Mobile()
+redmi = Mobile()
+geek = Mobile()
 
+print(Mobile.fp)
+print(realme.fp)
+print(redmi.fp)
+print(geek.fp)
 
-print("====")
-a = array('i', [101, 102, 103, 104])
-y = show(a)
-print("Return Array y:", y)
-print(type(y))
-for i in y:
-    print(i)
+Mobile.fp = 'no'
+print(Mobile.fp)
+print(realme.fp)
+print(redmi.fp)
+print(geek.fp)
+print('--------------')
+
+realme.fp = 'Not Working'
+print(Mobile.fp)
+print(realme.fp)
+print(redmi.fp)
+print(geek.fp)
