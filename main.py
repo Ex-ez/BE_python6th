@@ -1,8 +1,5 @@
+with open('example.txt', 'r') as file_object:
+    lines = file_object.readlines()
+    for line in lines:
+        print('>', line.strip())
 
-file_object = open('new_example.txt', 'w')
-
-content = "This is a new file. \nPython is fun!"
-
-file_object.write(content)
-
-file_object.close()
