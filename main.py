@@ -1,16 +1,20 @@
-print("파일 열기")
-file_object = open('example.txt', 'r')
 
-print("현재 파일 위치 확인")
-position = file_object.tell()
-print("Current position: ", position)
+# import os
+#
+# filename = 'example1.txt'
+#
+# print("파일이 존재하는지 확인하기")
+# if os.path.isfile(filename):
+#     print(f"{filename}이 존재합니다.")
+# else:
+#     print(f"{filename}이 없습니다.")
 
-print("파일 포인터 위치 변경")
-file_object.seek(7)
+file_object = open('list_example.txt', 'w')
 
-print("변경된 위치 확인")
-position = file_object.tell()
-print("New position:", position)
+content_list = ["Python", "Java", "C++", "Javascript"]
 
-print("파일 닫기")
+for item in content_list:
+    print(file_object.tell())
+    file_object.write(item + '\n')
+
 file_object.close()
