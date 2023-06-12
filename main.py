@@ -1,24 +1,4 @@
-class Engine:
-    def start(self):
-        return "Engine started"
+from MyApp.Handlers.text_handler import  handle_text
 
-    def stop(self):
-        return "Engine stopped"
-
-
-class Wheels:
-    def rotate(self):
-        return "Wheels are rotating"
-
-
-# 다중 상속
-class Car(Engine, Wheels):
-    pass
-
-
-# 인스턴스 생성
-my_car = Car()
-
-# 부모 클래스의 메소드 사용
-print(my_car.start())
-print(my_car.rotate())
+input_text = "python package practice"
+handle_text(input_text)
