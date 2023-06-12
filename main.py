@@ -1,25 +1,22 @@
-class Car:
-    # 클래스 속성
-    wheels = 4
-
-    def __init__(self, make, model, color):
+# 부모 클래스
+class Vehicle:
+    def __init__(self, make, model, year):
         self.make = make
         self.model = model
-        self.color = color
+        self.year = year
 
-    # Method
-    def drive(self):
-        return "The car is moving!"
-
-    def stop(self):
-        return "The car has stopped."
+    def start_engine(self):
+        return "The engine is running!"
 
 
-my_car = Car("Kia", "Morning", "Blue")
+# 자식 클래스
+class Car(Vehicle):
+    def start_engine(self):
+        return super().start_engine() + " It's a car engine."
 
-# 속성 사용하기
-print(my_car.make)
 
-# 메소드 호출하기
-print(my_car.drive())
-print(my_car.stop())
+# 인스턴스 생성
+my_car = Car("Toyota", "Corolla", 2020)
+
+# 메소드 호출
+print(my_car.start_engine())
