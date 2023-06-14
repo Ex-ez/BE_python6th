@@ -88,6 +88,12 @@
 
 ## 6월 13일
 - Leetcode 페이지에서 알고리즘 문제풀이
-
+- 문자열 조작
 
 ## 6월 14일 
+- 배열
+- Two Sum 문제  https://leetcode.com/problems/two-sum/description/
+- Trapping rain water https://leetcode.com/problems/trapping-rain-water/description/
+- 연결 리스트
+-  Palindrome Linked List  https://leetcode.com/problems/palindrome-linked-list/description/
+- Reverse Linked List  https://leetcode.com/problems/reverse-linked-list/
