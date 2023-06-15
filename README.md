@@ -89,6 +89,7 @@
 ## 6월 13일
 - Leetcode 페이지에서 알고리즘 문제풀이
 - 문자열 조작
+- vod 일단만드는 python
 
 ## 6월 14일 
 - 배열
@@ -97,8 +98,15 @@
 - 연결 리스트
 -  Palindrome Linked List  https://leetcode.com/problems/palindrome-linked-list/description/
 - Reverse Linked List  https://leetcode.com/problems/reverse-linked-list/
+- vod [기초]같이 푸는 python
 
 ## 6월 15일
-- 스택, 큐 실습
-
-
+- 스택 실습
+- Valid Parentheses https://leetcode.com/problems/valid-parentheses/
+- Remove Duplicate Letters https://leetcode.com/problems/remove-duplicate-letters
+- Daily Temperatures  https://leetcode.com/problems/daily-temperatures/description/
+- 큐 실습
+- Implement Queue using Stacks https://leetcode.com/problems/implement-queue-using-stacks/description/
+- Implement Stack using Queues  https://leetcode.com/problems/implement-stack-using-queues/
+- Design Circular Queue  https://leetcode.com/problems/design-circular-queue/
+- vod [심화] 같이 푸는 python
