@@ -110,3 +110,19 @@
 - Implement Stack using Queues  https://leetcode.com/problems/implement-stack-using-queues/
 - Design Circular Queue  https://leetcode.com/problems/design-circular-queue/
 - vod [심화] 같이 푸는 python
+
+## 6월 16일
+- 데크, 우선순위 큐
+- Design Circular Deque https://leetcode.com/problems/design-circular-deque/
+- Merge k Sorted Lists  https://leetcode.com/problems/merge-k-sorted-lists/
+- 해시 테이블 
+- Design HashMap  https://leetcode.com/problems/design-hashmap/
+- Jewels and Stones  https://leetcode.com/problems/jewels-and-stones/
+- 실검에 오르는 세렝게티 동물 테스트 만들기
+
+## 6월 16일
+- 가벼운 토크, 알고리즘 문제 1개 풀
+- Linked List Cycle  https://leetcode.com/problems/linked-list-cycle/submissions/974384656/
+- 그래프 실습
+- Number of Islands https://leetcode.com/problems/number-of-islands/
+- 
