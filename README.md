@@ -126,3 +126,5 @@
 - 그래프 실습 dhwjs
 - Number of Islands https://leetcode.com/problems/number-of-islands/
 - 알고ppt 15 장고 기본 웹프이해 실습
+- urllib request 실습
+- 이미지 경로 추출 HTMLParser 실습
