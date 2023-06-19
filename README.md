@@ -123,6 +123,6 @@
 ## 6월 16일
 - 가벼운 토크, 알고리즘 문제 1개 풀
 - Linked List Cycle  https://leetcode.com/problems/linked-list-cycle/submissions/974384656/
-- 그래프 실습
+- 그래프 실습 dhwjs
 - Number of Islands https://leetcode.com/problems/number-of-islands/
-- 
+- 알고ppt 15 장고 기본 웹프이해 실습
