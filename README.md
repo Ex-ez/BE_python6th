@@ -137,7 +137,7 @@
 - 13장 최단 경로 문제
 - Network Delay Time    https://leetcode.com/problems/network-delay-time/
 - 알고ppt 17 장고 기본 웹프레임워크
-- 장고 실습
+- 장고 실습 기본 설정
 
 
 

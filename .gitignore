@@ -1,3 +1,4 @@
 .idea
 new_example.txt
 list_example.txt
+/myproject/db.sqlite3
