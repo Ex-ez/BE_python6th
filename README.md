@@ -120,7 +120,7 @@
 - Jewels and Stones  https://leetcode.com/problems/jewels-and-stones/
 - 실검에 오르는 세렝게티 동물 테스트 만들기
 
-## 6월 16일
+## 6월 19일
 - 가벼운 토크, 알고리즘 문제 1개 풀
 - Linked List Cycle  https://leetcode.com/problems/linked-list-cycle/submissions/974384656/
 - 그래프 실습 dhwjs
@@ -128,3 +128,25 @@
 - 알고ppt 15 장고 기본 웹프이해 실습
 - urllib request 실습
 - 이미지 경로 추출 HTMLParser 실습
+
+## 6월 20일
+- 알고리즘 그래프 ppt 20p 문제부터 시작
+- Letter Combinations of a Phone Number  https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+- Permutations https://leetcode.com/problems/permutations/description/
+-Reconstruct Itinerary  https://leetcode.com/problems/reconstruct-itinerary/
+- 13장 최단 경로 문제
+- Network Delay Time    https://leetcode.com/problems/network-delay-time/
+- 알고ppt 17 장고 기본 웹프레임워크
+- 장고 실습
+
+
+
+
+
+
+
+
+
+
+
+
