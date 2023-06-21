@@ -134,11 +134,19 @@
 - Letter Combinations of a Phone Number  https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 - Permutations https://leetcode.com/problems/permutations/description/
 -Reconstruct Itinerary  https://leetcode.com/problems/reconstruct-itinerary/
-- 13장 최단 경로 문제
+- ppt 11 최단 경로 문제
 - Network Delay Time    https://leetcode.com/problems/network-delay-time/
 - 알고ppt 17 장고 기본 웹프레임워크
 - 장고 실습 기본 설정
 
+## 6월 21일 
+- 12 트리
+- 트리문제 박살 Day
+- Maximum Depth of Binary Tree   https://leetcode.com/problems/maximum-depth-of-binary-tree/
+- Longest Univalue Path    https://leetcode.com/problems/longest-univalue-path/description/
+- Balanced Binary Tree     https://leetcode.com/problems/balanced-binary-tree/
+- Minimum Height Trees     https://leetcode.com/problems/minimum-height-trees/
+- Range Sum of BST     https://leetcode.com/problems/range-sum-of-bst/
 
 
 
