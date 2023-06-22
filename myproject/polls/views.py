@@ -33,4 +33,5 @@ def vote(request, question_id):
 
 
 def results(request, question_id):
-    return HttpResponseRedirect(reverse('polls:index'))
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'polls/results.html', {'question': question})

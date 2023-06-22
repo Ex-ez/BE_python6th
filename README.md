@@ -149,9 +149,10 @@
 - Range Sum of BST     https://leetcode.com/problems/range-sum-of-bst/
 - 장고 실습중
 
-
-
-
+## 6월 22일
+- 15 힙
+- Kth Largest Element in an Array      https://leetcode.com/problems/kth-largest-element-in-an-array/
+- 장고 실습중... 테이블 갖고 노는중
 
 
 
