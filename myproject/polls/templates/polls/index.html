@@ -1,12 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}My Title{% endblock %}
+
+{% block content %}
 <!--views.py > index > context > latest_question_list -->
 {% if latest_question_list %}
 <ul>
     {% for question in latest_question_list %}
     <li>
-        <a href="/polls/{{question.id}}">{{ question.question_text }}</a>
+        <a href="/polls/{{question.id}}">{{ question.question_text|default:'질문이 없습니다.' }}</a>
     </li>
     {% endfor %}
 </ul>
 {% else %}
 <p>투표가 없습니다.</p>
 {% endif %}
+{% endblock %}
