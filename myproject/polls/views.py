@@ -19,17 +19,14 @@ class IndexView(generic.ListView):
         return Question.objects.all().order_by('-pub_date')[:5]
 
 
-# Create your views here.
-def index(request):
-    latest_question_list = Question.objects.all().order_by('-pub_date')[:5]
-    # latest_question_list = [{'question_text': 'Hello, World', 'pub_date': datetime.datetime.now()}]
-    context = {'latest_question_list': latest_question_list}
-    return render(request, 'polls/index.html', context)
+class DetailView(generic.DetailView):
+    model = Question
+    template_name = 'polls/detail.html'
 
 
-def detail(request, question_id):
-    question = get_object_or_404(Question, pk=question_id)
-    return render(request, 'polls/detail.html', {'question': question})
+class ResultView(generic.DetailView):
+    model = Question
+    template_name = 'polls/results.html'
 
 
 def vote(request, question_id):
