@@ -5,7 +5,7 @@ from polls.models import Question, Choice
 
 class ChoiceInline(admin.TabularInline):
     model = Choice
-    extra = 2
+    extra = 1
 
 
 # Register your models here.
