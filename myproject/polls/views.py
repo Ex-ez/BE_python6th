@@ -4,9 +4,20 @@ from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.shortcuts import render, get_object_or_404
 
+from django.views import generic
 from polls.models import Question, Choice
 
 logger = logging.getLogger(__name__)
+
+
+class IndexView(generic.ListView):
+    template_name = 'polls/index.html'
+    context_object_name = 'latest_question_list'
+
+    def get_queryset(self):
+        # 최근 생성된 질문 5개를 반환함
+        return Question.objects.all().order_by('-pub_date')[:5]
+
 
 # Create your views here.
 def index(request):
