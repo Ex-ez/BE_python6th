@@ -2,3 +2,4 @@
 new_example.txt
 list_example.txt
 /myproject/db.sqlite3
+/myproject/logs/development.log

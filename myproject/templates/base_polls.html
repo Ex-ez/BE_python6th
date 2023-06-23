@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Polls Application Site{% endblock title %}
+
+{% block sidebar %}
+    {{ block.super }}
+    <ul>
+        <li><a href="/polls/">Polls Home</a></li>
+    </ul>
+{% endblock sidebar %}
