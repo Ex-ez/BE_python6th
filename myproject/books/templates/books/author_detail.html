@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ object.name }}</h1>
+    <ul>
+        <li>{{ object.salutation }}</li>
+        <li>Email: {{ object.email }}</li>
+    </ul>
+{% endblock content %}
