@@ -1,16 +1,23 @@
-from wsgiref.simple_server import make_server
+import psycopg2
+from psycopg2 import sql
 
+conn = psycopg2.connect(
+    host='localhost',
+    dbname='library',
+    user='user1',
+    password='1111',
+)
 
-def application(environ, start_response):
-    response_body = b"Hello, World!"
-    status = "200 OK"
-    headers = [("Content-Type", "text/plain")]
+cur = conn.cursor()
 
-    start_response(status, headers)
-    return [response_body]
+# 테이블 생성
+# cur.execute('''
+# CREATE TABLE test_table (
+# id SERIAL PRIMARY KEY,
+# name VARCHAR(50))
+# ''')
 
+conn.commit()
 
-if __name__ == '__main__':
-    httpd = make_server("", 8000, application)
-    print("Running...")
-    httpd.serve_forever()
+cur.close()
+conn.close()
