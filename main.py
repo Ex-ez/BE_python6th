@@ -16,8 +16,13 @@ cur = conn.cursor()
 # id SERIAL PRIMARY KEY,
 # name VARCHAR(50))
 # ''')
+# conn.commit()
 
-conn.commit()
+cur.execute('SELECT * FROM test_table')
+rows =cur.fetchall()
+
+for row in rows:
+    print(row)
 
 cur.close()
 conn.close()
