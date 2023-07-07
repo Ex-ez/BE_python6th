@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firebase실습</title>
+</head>
+<body>
+
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import {initializeApp} from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+    import {getAnalytics} from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyCzuebNrqN0BvfuC0BdkX36N1dw43ucPg8",
+        authDomain: "python6th.firebaseapp.com",
+        projectId: "python6th",
+        storageBucket: "python6th.appspot.com",
+        messagingSenderId: "515118621893",
+        appId: "1:515118621893:web:8450e0605c39887ca87cac",
+        measurementId: "G-FK75H0FFM7"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+
+
+</script>
+</body>
+</html>
